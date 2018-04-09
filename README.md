@@ -23,4 +23,4 @@ cat water.html | sed -e 1,4d -e /tr/d -e /table/d -e 's;</td><td>;,;g' -e 's/.*<
 
 ### Graphing water data
 
-Use your favorite graphing tool. Examples welcomed.
+Use your favorite graphing tool. Examples welcomed; the file `waterusage.sh` here generates a plot.
