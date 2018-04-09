@@ -1,11 +1,11 @@
 # a2water
 
-Utilities to download and analyze Ann Arbor water utilities use
+Utilities to download and analyze Ann Arbor water utilities use.
 
 ### Downloading water data
 
 If you look on your water bill you'll find a "meterID", like
-12345678-0.12. Replace that ID with yours in this "curl" command
+`12345678-0.12`. Replace that ID with yours in this "curl" command
 to get readings for a range of dates.
 
 ```
