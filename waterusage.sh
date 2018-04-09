@@ -2,6 +2,8 @@
 #
 # usage: waterusage MeterID [start-year [end-year]]
 #
+# depends on gnuplot
+#
 set -a
 
 usage() {
