@@ -14,7 +14,7 @@ curl -s 'https://secure.a2gov.org/WaterConsumption/DownloadData.aspx?meterID=123
 
 ### Parsing water data
 
-It's a funky HTML file. This bit of hackery will normalize it
+It's a funky HTML file. This bit of `sed` will normalize it
 back down to something easy to parse.
 
 ```
