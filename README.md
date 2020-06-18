@@ -24,3 +24,12 @@ cat water.html | sed -e 1,4d -e /tr/d -e /table/d -e 's;</td><td>;,;g' -e 's/.*<
 ### Graphing water data
 
 Use your favorite graphing tool. Examples welcomed; the file `waterusage.sh` here generates a plot.
+
+### City provided alert and monitoring tool, "Aquahawk"
+
+The City of Ann Arbor released a reporting and alert monitoring tool,
+[Aquahawk](https://annami.aquahawk.us/login), which you can use once
+you've registered your meter. It gives you a day-by-day estimate of use,
+as well as monthly or weekly totals, and you can export by hour, day,
+or month. The system can also send alerts to a provided cell phone number
+if it suspects that you have a leak.
