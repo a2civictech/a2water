@@ -2,6 +2,8 @@
 
 Utilities to download and analyze Ann Arbor water utilities use.
 
+This is largely obviated by the city's AquaHawk system.
+
 ### Downloading water data
 
 If you look on your water bill you'll find a "meterID", like
